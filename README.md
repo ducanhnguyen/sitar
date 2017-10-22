@@ -1,5 +1,8 @@
-Sitar
-=====
+Sitar-vnu
+Extend Sitar by vnu team.
+Import the project into Eclipse.
+
+===== ORIGINAL SITAR README ========
 
 Sitar (__S__WT GU__ITAR__) is an automated testing framework for [SWT](http://eclipse.org/swt) applications. 
 It consists of a set of plugins for [GUITAR](http://guitar.sourceforge.net) to adapt GUITAR-Core for use with SWT.

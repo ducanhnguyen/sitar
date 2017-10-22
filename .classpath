@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="swt.jar" sourcepath="src.zip">
+		<attributes>
+			<attribute name="javadoc_location" value="http://help.eclipse.org/stable/nftopic/org.eclipse.platform.doc.isv/reference/api/"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="org.eclipse.swt"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/args4j-2.33.jar"/>
+	<classpathentry kind="lib" path="lib/jemmy-2.3.0.0.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j/slf4j-api-1.7.25.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
